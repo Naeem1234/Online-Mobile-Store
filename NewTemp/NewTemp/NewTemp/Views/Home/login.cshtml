@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "login";
+}
+
+<!--
+Body Section
+-->
+<div class="row">
+    <div id="sidebar" class="span3">
+        <div class="well well-small">
+            <ul class="nav nav-list">
+                <li><span class="icon-chevron-right">@Html.ActionLink("Samsung", "samsung", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("Huawei", "huawei", "Home")</span></li>
+
+                <li><span class="icon-chevron-right">@Html.ActionLink("QMobile", "qmobile", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("LG", "lg", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("OPPO", "oppo", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("Iphones", "iphone", "Home")</span></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Nokia</span> </a></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Sony</span></a></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Haier</span></a></li>
+                <li style="border:0"> &nbsp;</li>
+                <li> <a class="totalInCart" href="cart.html"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+            </ul>
+        </div>
+
+        <div class="well well-small alert alert-warning cntr">
+            <h2>50% Discount</h2>
+            <p>
+                only valid for online order. <br><br><a class="defaultBtn" href="#">Click here </a>
+            </p>
+        </div>
+        
+
+       
+
+    </div>
+    <div class="span9">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Login</li>
+        </ul>
+        <h3> Login</h3>
+        <hr class="soft" />
+
+        <div class="row">
+            <div class="span4">
+                <div class="well">
+                    <h5>CREATE YOUR ACCOUNT</h5><br />
+                    Enter your e-mail address to create an account.<br /><br /><br />
+                    <form>
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail">E-mail address</label>
+                            <div class="controls">
+                                <input class="span3" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <button type="submit" class="btn block"><span class="icon-home"></span> @Html.ActionLink("Create your Account", "register", "Home")</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="span1"> &nbsp;</div>
+            <div class="span4">
+                <div class="well">
+                    <h5>ALREADY REGISTERED ?</h5><br>
+                    <form>
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail" >Email</label>
+                            <div class="controls">
+                                <input class="span3" type="text" placeholder="Email" name="user">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPassword">Password</label>
+                            <div class="controls">
+                                <input type="password" class="span3" placeholder="Password" name="pass">
+                            </div>
+                        </div>
+                        
+                        <div class="control-group">
+                            <div class="controls">
+                                <button type="submit" class="defaultBtn">Sign in</button> <a href="#">Forget password?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+

@@ -1,0 +1,110 @@
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\AdminPanel.dll.config
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\AdminPanel.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\AdminPanel.pdb
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Antlr3.Runtime.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\EntityFramework.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\EntityFramework.SqlServer.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Newtonsoft.Json.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Owin.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Helpers.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Mvc.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Optimization.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Razor.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\WebGrease.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Helpers.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Mvc.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Optimization.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.Razor.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Newtonsoft.Json.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Antlr3.Runtime.pdb
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\EntityFramework.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\EntityFramework.SqlServer.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\obj\Debug\AdminPanel.dll
+C:\Users\Naeem\Desktop\MVC\NewTemp\AdminPanel\obj\Debug\AdminPanel.pdb
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\AdminPanel.dll.config
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\AdminPanel.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\AdminPanel.pdb
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Antlr3.Runtime.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\EntityFramework.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\EntityFramework.SqlServer.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Google.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Web.Infrastructure.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Newtonsoft.Json.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Owin.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Helpers.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Mvc.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Optimization.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Razor.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.Deployment.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.Razor.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\WebGrease.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Helpers.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Mvc.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Optimization.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.Razor.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.Deployment.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\System.Web.WebPages.Razor.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Newtonsoft.Json.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Antlr3.Runtime.pdb
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\EntityFramework.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\EntityFramework.SqlServer.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Google.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\obj\Debug\AdminPanel.dll
+F:\Semesters\semester 6\EAD.Net\MVC\NewTemp\NewTemp\AdminPanel\obj\Debug\AdminPanel.pdb

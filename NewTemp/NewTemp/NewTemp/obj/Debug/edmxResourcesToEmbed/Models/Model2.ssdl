@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewTempModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.huawei' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="huawei">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.iphone' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="iphone">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.lg' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="lg">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.oppo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="oppo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.qmobile' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="qmobile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewTemp.dbo.samsung' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="samsung">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="ram" Type="nvarchar" MaxLength="50" />
+    <Property Name="rom" Type="nvarchar" MaxLength="50" />
+    <Property Name="backcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="frontcam" Type="nvarchar" MaxLength="50" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="NewTempModel1StoreContainer">
+    <EntitySet Name="huawei" EntityType="Self.huawei" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [huawei].[id] AS [id], 
+    [huawei].[url] AS [url], 
+    [huawei].[name] AS [name], 
+    [huawei].[price] AS [price], 
+    [huawei].[ram] AS [ram], 
+    [huawei].[rom] AS [rom], 
+    [huawei].[backcam] AS [backcam], 
+    [huawei].[frontcam] AS [frontcam], 
+    [huawei].[color] AS [color]
+    FROM [dbo].[huawei] AS [huawei]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="iphone" EntityType="Self.iphone" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [iphone].[id] AS [id], 
+    [iphone].[url] AS [url], 
+    [iphone].[name] AS [name], 
+    [iphone].[price] AS [price], 
+    [iphone].[ram] AS [ram], 
+    [iphone].[rom] AS [rom], 
+    [iphone].[backcam] AS [backcam], 
+    [iphone].[frontcam] AS [frontcam], 
+    [iphone].[color] AS [color]
+    FROM [dbo].[iphone] AS [iphone]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="lg" EntityType="Self.lg" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [lg].[id] AS [id], 
+    [lg].[url] AS [url], 
+    [lg].[name] AS [name], 
+    [lg].[price] AS [price], 
+    [lg].[ram] AS [ram], 
+    [lg].[rom] AS [rom], 
+    [lg].[backcam] AS [backcam], 
+    [lg].[frontcam] AS [frontcam], 
+    [lg].[color] AS [color]
+    FROM [dbo].[lg] AS [lg]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="oppo" EntityType="Self.oppo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [oppo].[id] AS [id], 
+    [oppo].[url] AS [url], 
+    [oppo].[name] AS [name], 
+    [oppo].[price] AS [price], 
+    [oppo].[ram] AS [ram], 
+    [oppo].[rom] AS [rom], 
+    [oppo].[backcam] AS [backcam], 
+    [oppo].[frontcam] AS [frontcam], 
+    [oppo].[color] AS [color]
+    FROM [dbo].[oppo] AS [oppo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="qmobile" EntityType="Self.qmobile" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [qmobile].[id] AS [id], 
+    [qmobile].[url] AS [url], 
+    [qmobile].[name] AS [name], 
+    [qmobile].[price] AS [price], 
+    [qmobile].[ram] AS [ram], 
+    [qmobile].[rom] AS [rom], 
+    [qmobile].[backcam] AS [backcam], 
+    [qmobile].[frontcam] AS [frontcam], 
+    [qmobile].[color] AS [color]
+    FROM [dbo].[qmobile] AS [qmobile]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="samsung" EntityType="Self.samsung" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [samsung].[id] AS [id], 
+    [samsung].[url] AS [url], 
+    [samsung].[name] AS [name], 
+    [samsung].[price] AS [price], 
+    [samsung].[ram] AS [ram], 
+    [samsung].[rom] AS [rom], 
+    [samsung].[backcam] AS [backcam], 
+    [samsung].[frontcam] AS [frontcam], 
+    [samsung].[color] AS [color]
+    FROM [dbo].[samsung] AS [samsung]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

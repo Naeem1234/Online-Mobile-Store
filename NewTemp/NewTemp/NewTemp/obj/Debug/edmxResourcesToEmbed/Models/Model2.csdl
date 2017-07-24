@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewTempModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="huawei">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="iphone">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="lg">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="oppo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="qmobile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="samsung">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="NewTempEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="huaweis" EntityType="Self.huawei" />
+    <EntitySet Name="iphones" EntityType="Self.iphone" />
+    <EntitySet Name="lgs" EntityType="Self.lg" />
+    <EntitySet Name="oppoes" EntityType="Self.oppo" />
+    <EntitySet Name="qmobiles" EntityType="Self.qmobile" />
+    <EntitySet Name="samsungs" EntityType="Self.samsung" />
+  </EntityContainer>
+</Schema>

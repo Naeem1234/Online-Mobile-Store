@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NewTempModelStoreContainer" CdmEntityContainer="NewTempEntities">
+    <EntitySetMapping Name="samsungs">
+      <EntityTypeMapping TypeName="NewTempModel.samsung">
+        <MappingFragment StoreEntitySet="samsung">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="qmobiles">
+      <EntityTypeMapping TypeName="NewTempModel.qmobile">
+        <MappingFragment StoreEntitySet="qmobile">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="oppoes">
+      <EntityTypeMapping TypeName="NewTempModel.oppo">
+        <MappingFragment StoreEntitySet="oppo">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lgs">
+      <EntityTypeMapping TypeName="NewTempModel.lg">
+        <MappingFragment StoreEntitySet="lg">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iphones">
+      <EntityTypeMapping TypeName="NewTempModel.iphone">
+        <MappingFragment StoreEntitySet="iphone">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="huaweis">
+      <EntityTypeMapping TypeName="NewTempModel.huawei">
+        <MappingFragment StoreEntitySet="huawei">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gridViews">
+      <EntityTypeMapping TypeName="NewTempModel.gridView">
+        <MappingFragment StoreEntitySet="gridView">
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="frontcam" ColumnName="frontcam" />
+          <ScalarProperty Name="backcam" ColumnName="backcam" />
+          <ScalarProperty Name="rom" ColumnName="rom" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

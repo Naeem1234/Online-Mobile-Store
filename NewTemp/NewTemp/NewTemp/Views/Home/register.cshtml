@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "register";
+}
+
+<!--
+Body Section
+-->
+<div class="row">
+    <div id="sidebar" class="span3">
+        <div class="well well-small">
+            <ul class="nav nav-list">
+                <li><span class="icon-chevron-right">@Html.ActionLink("Samsung", "samsung", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("Huawei", "huawei", "Home")</span></li>
+
+                <li><span class="icon-chevron-right">@Html.ActionLink("QMobile", "qmobile", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("LG", "lg", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("OPPO", "oppo", "Home")</span></li>
+                <li><span class="icon-chevron-right">@Html.ActionLink("Iphones", "iphone", "Home")</span></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Nokia</span> </a></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Sony</span></a></li>
+                <li><a href="index.html"><span class="icon-chevron-right">Haier</span></a></li>
+                <li style="border:0"> &nbsp;</li>
+                <li> <a class="totalInCart" href="cart.html"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+            </ul>
+        </div>
+
+        <div class="well well-small alert alert-warning cntr">
+            <h2>50% Discount</h2>
+            <p>
+                only valid for online order. <br><br><a class="defaultBtn" href="#">Click here </a>
+            </p>
+        </div>
+       
+
+    </div>
+    <div class="span9">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Registration</li>
+        </ul>
+        <h3> Registration</h3>
+        <hr class="soft" />
+        <div class="well">
+            <form class="form-horizontal" action="/Home/register">
+                <h3>Your Personal Details</h3>
+                <div class="control-group">
+                    <label class="control-label">Title <sup>*</sup></label>
+                    <div class="controls">
+                        <select class="span1" name="days">
+                            <option value="">-</option>
+                            <option value="1">Mr.</option>
+                            <option value="2">Mrs</option>
+                            <option value="3">Miss</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputFname">First name <sup>*</sup></label>
+                    <div class="controls">
+                        <input type="text" id="inputFname" placeholder="First Name" name="fname" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputLname">Last name <sup>*</sup></label>
+                    <div class="controls">
+                        <input type="text" id="inputLname" placeholder="Last Name" name="lname" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email <sup>*</sup></label>
+                    <div class="controls">
+                        <input type="text" placeholder="Email" name="email" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Password <sup>*</sup></label>
+                    <div class="controls">
+                        <input type="password" placeholder="Password" name=" pass" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputContact">Contact NO : <sup>*</sup></label>
+                    <div class="controls">
+                        <input type="text" id="inputContact" placeholder="Contact Number" name="contact" required>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="control-group">
+                    <div class="controls">
+                        <input type="submit" name="submitAccount" value="Register" class="exclusive shopBtn">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        
+
+
+        
+
+
+    </div>
+</div>
+
+

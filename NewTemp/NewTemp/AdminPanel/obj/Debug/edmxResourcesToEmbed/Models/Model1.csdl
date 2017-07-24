@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewTempModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NewTempEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="samsungs" EntityType="NewTempModel.samsung" />
+    <EntitySet Name="qmobiles" EntityType="NewTempModel.qmobile" />
+    <EntitySet Name="oppoes" EntityType="NewTempModel.oppo" />
+    <EntitySet Name="lgs" EntityType="NewTempModel.lg" />
+    <EntitySet Name="iphones" EntityType="NewTempModel.iphone" />
+    <EntitySet Name="huaweis" EntityType="NewTempModel.huawei" />
+    <EntitySet Name="gridViews" EntityType="NewTempModel.gridView" />
+  </EntityContainer>
+  <EntityType Name="samsung">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="qmobile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="oppo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="lg">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="iphone">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="huawei">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="gridView">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ram" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="backcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="frontcam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
